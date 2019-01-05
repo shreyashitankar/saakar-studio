@@ -1,0 +1,10 @@
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="jquery-glitch.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".glitch").glitch({
+					layers: ["red", "green"],
+					offset: [20, 10],
+				});
+			});
+		</script>	

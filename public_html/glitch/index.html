@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link href="jquery-glitch.css" rel="stylesheet">
+		<style>
+			html, body {
+				margin: 0px;
+				padding: 0px;
+				background: #000;
+				color: #fff;
+				font-family: "Open Sans", sans-serif;
+				font-size: 100%;
+				font-weight: bolder;
+				text-transform: uppercase;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-size: 600%;
+			}
+			.container {
+				width: 768px;
+				margin: 150px auto;
+			}
+		</style>
+		<title>jQuery Glitch.js Plugin Demo</title>
+        </head>
+        <body>
+      
+<div class="container">
+			<div class="glitch">
+				<h1>jQuery Glitch.js Plugin Demo</h1>
+				<p>Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                <img src="https://unsplash.it/200/300/?random"></div>
+			</div>
+		
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="jquery-glitch.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".glitch").glitch({
+					layers: ["red", "green"],
+					offset: [20, 10],
+				});
+			});
+		</script>
+	</body>
+</html>
+
